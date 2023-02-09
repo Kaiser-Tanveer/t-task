@@ -6,7 +6,7 @@ import { FaShopify } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div className='my-10 shadow-lg rounded-lg relative w-5/6 mx-auto'>
+        <div className='my-10 shadow-lg container rounded-lg relative w-5/6 mx-auto'>
             <div>
                 <Zoom>
                     <h2 className='text-5xl font-bold text-info md:text-info text-center lg:text-left z-10 absolute md:left-1/3 lg:left-1/2 lg:top-1/4' style={{ WebkitTextStroke: '1px rgba(239, 159, 188)' }}>Buy Your Daily<br /> Accessories <br /> Here</h2>
