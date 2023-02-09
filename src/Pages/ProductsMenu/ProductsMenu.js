@@ -6,7 +6,7 @@ const ProductsMenu = () => {
     return (
         <div className='container mx-auto'>
             <h2 className='text-center font-bold text-4xl pb-4 text-transparent bg-clip-text bg-gradient-to-r from-info to-secondary'>Browse Categories</h2>
-            <div className='grid grid-cols-4 gap-6 mb-40'>
+            <div className='grid grid-cols-4 gap-6 pb-4 drop-shadow-lg'>
                 {
                     products.map(product =>
                         <div
