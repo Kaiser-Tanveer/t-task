@@ -4,9 +4,9 @@ import { HiMenu, HiOutlineHome, HiOutlineUserCircle } from 'react-icons/hi';
 
 const Navbar = () => {
     const menuItems = <>
-        <NavLink to='/' className='flex items-center text-xl m-2 mt-8 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink>
-        <NavLink to='/' className='flex items-center text-xl m-2 mt-8 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink>
-        <NavLink to='/' className='flex items-center text-xl m-2 mt-8 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink>
+        <li><NavLink to='/' className='flex items-center text-xl m-2 mt-8 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink></li>
+        <li><NavLink to='*' className='flex items-center text-xl m-2 mt-8 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Dashboard</span></NavLink></li>
+        <li><NavLink to='*' className='flex items-center text-xl m-2 mt-8 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Blog</span></NavLink></li>
     </>
     return (
         <div className="navbar glass p-0 pr-5 mx-auto shadow-lg">
@@ -19,7 +19,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link className="text-3xl font-bold ml-5">T-Task</Link>
+                <Link className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-info to-secondary ml-5">T-Task</Link>
             </div>
             <div className="hidden lg:flex items-center pb-5">
                 <ul className="menu text-base-content menu-horizontal">
