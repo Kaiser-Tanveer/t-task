@@ -1,134 +1,118 @@
 [
     {
-        "category_name": "books",
-        "img": "https://i.ibb.co/ZzzyzNq/guide-5.jpg",
-        "name": "Lecture Guide Class-5",
-        "price": "600",
-        "detail": "You can get all the Books at a cheap price. And we provide students friendly Services."
+        "category_name": "phones",
+        "img": "https://i.ibb.co/FY3PwSG/Galaxy-S22-Ultra.jpg",
+        "name": "Samsung Galaxy s22 Ultra",
+        "price": 92899,
+        "detail": "5G Connectivity (SA / NSA): More spectrum bands supported by a handset would provide wider 5G connectivity across markets. Enhanced Coverage: Handset features that can increase the time spent on 5G technology. Super fast 4G: Features that enhance speeds even in 4G coverage."
     },
     {
-        "category_name": "books",
-        "img": "https://i.ibb.co/YNb8jnH/guide-4.jpg",
-        "name": "Lecture Guide Class-4",
-        "price": "499",
+        "category_name": "phones",
+        "img": "https://i.ibb.co/kSzxth7/xiaomi12-Pro.jpg",
+        "name": "Xiaomi Redmi 12 Pro",
+        "price": 28990,
         "badge": "new",
-        "detail": "You can get all the Books at a cheap price. And we provide students friendly Services."
+        "detail": "Xiaomi Redmi Note 12 Pro price starts from BDT. 28,990. Xiaomi Redmi Note 12 Pro internal storage base variant of 6 GB, 8 GB, 12 GB Ram, 128 GB, 256 GB Internal Memory (ROM). Xiaomi Redmi Note 12 Pro which is available in Black, Blue, White, Violet colour."
     },
     {
-        "category_name": "books",
-        "img": "https://i.ibb.co/xmMvFMN/economics-Test.jpg",
-        "name": "SSC Accounting Test paper",
-        "price": "375",
-        "detail": "You can get all the Books at a cheap price. And we provide students friendly Services."
+        "category_name": "phones",
+        "img": "https://i.ibb.co/B4GZKF4/One-Plus10-Pro.png",
+        "name": "One Plus 10 Pro",
+        "price": 60990,
+        "detail": "OnePlus 10 Pro is yet another premium flagship offering from the brand. The smartphone promises seamless visuals and detailed portraits. It continues the OnePlus legacy with a powerful processor configuration backed by a massive 8GB RAM. Moreover, a 5000mAh battery with 80W Super VOOC Charging capability ensures prolonged usage."
     },
     {
-        "category_name": "books",
-        "img": "https://i.ibb.co/9cv9xPt/math-Sugession-10.png",
-        "name": "SSC Math Test paper",
-        "price": "437",
-        "detail": "You can get all the Books at a cheap price. And we provide students friendly Services."
+        "category_name": "phones",
+        "img": "https://i.ibb.co/jMrdgKv/iphone14.png",
+        "name": "iPhone 14",
+        "price": 72990,
+        "detail": "Apple iPhone 14 features a 12MP camera sensor which can record endless videos in a seamless manner. The brand has incorporated iOS v16 along with flagship features like Dust-proof and Water resistance. As always, buyers get their hands on a robust processor configuration and a massive storage unit which assures lag-free working experience."
     },
     {
-        "category_name": "notebooks",
-        "img": "https://i.ibb.co/1R6YHtM/nerd-Notebook.jpg",
-        "name": "Nerd Notebook",
-        "price": "150",
-        "detail": "You can get many kind of Notebooks at a cheap price. And we provide students friendly Services."
+        "category_name": "laptops",
+        "img": "https://i.ibb.co/jkrMWJb/macbook-Air-M2.png",
+        "name": "Macbook Air M2",
+        "price": 107990,
+        "detail": "Apple MacBook Air 2022 Laptop (Apple M2/ 8GB/ 256GB/ MacOS) price in India is ₹1,07,990. You can buy Apple MacBook Air 2022 Laptop (Apple M2/ 8GB/ 256GB/ MacOS) online on Croma at lowest price. Apple MacBook Air 2022 Laptop (Apple M2/ 8GB/ 256GB/ MacOS) was last updated on February 10, 2023"
     },
     {
-        "category_name": "notebooks",
-        "img": "https://i.ibb.co/5WsbTXv/note-Everything.jpg",
-        "name": "Note Everything Notebook",
-        "price": "320",
+        "category_name": "laptops",
+        "img": "https://i.ibb.co/wCp96Dg/HP-Elite-Book-840-G8.png",
+        "name": "HP Elitebook 840 G8",
+        "price": 138800,
         "badge": "new",
-        "detail": "You can get many kind of Notebooks at a cheap price. And we provide students friendly Services."
+        "detail": "HP Elitebook 840 G8 4S1H5PA Laptop (11th Gen Core i5/ 8GB/ 512GB SSD/ Win10) price in India starts from ₹1,38,800. It is available at lowest price on Amazon in India as on Feb 10, 2023. Take a look at HP Elitebook 840 G8 4S1H5PA Laptop (11th Gen Core i5/ 8GB/ 512GB SSD/ Win10) detailed specifications and features."
     },
     {
-        "category_name": "notebooks",
-        "img": "https://i.ibb.co/GvqZNVx/natural.jpg",
-        "name": "Natural Notebook",
-        "price": "250",
+        "category_name": "laptops",
+        "img": "https://i.ibb.co/wWPLn5y/Asus-Vivobook.png",
+        "name": "Asus Vivobook 15",
+        "price": 57499,
         "badge": "new",
-        "detail": "You can get many kind of Notebooks at a cheap price. And we provide students friendly Services."
+        "detail": "Asus VivoBook 15 X1500EA-EJ701W Laptop (11th Gen Core i7/ 16GB/ 512GB SSD/ Win11) price in India starts from ₹57,499. It is available at lowest price on Amazon in India as on Feb 10, 2023. Take a look at Asus VivoBook 15 X1500EA-EJ701W Laptop (11th Gen Core i7/ 16GB/ 512GB SSD/ Win11) detailed specifications and features."
     },
     {
-        "category_name": "notebooks",
-        "img": "https://i.ibb.co/n3d1MQw/workMap.jpg",
-        "name": "Word Map Notebook",
-        "price": "140",
-        "detail": "You can get many kind of Notebooks at a cheap price. And we provide students friendly Services."
+        "category_name": "laptops",
+        "img": "https://i.ibb.co/h8Kz4hD/Dell-Latitude5420.jpg",
+        "name": "Dell Latitude 5420",
+        "price": 74500,
+        "detail": "Dell Latitude 5420 Laptop (11th Gen Core i5/ 8GB/ 256GB SSD/ Win10 Pro) price in India starts from ₹74,500. It is available at lowest price on Amazon in India as on Feb 10, 2023. Take a look at Dell Latitude 5420 Laptop (11th Gen Core i5/ 8GB/ 256GB SSD/ Win10 Pro) detailed specifications and features."
     },
     {
-        "category_name": "pens",
-        "img": "https://i.ibb.co/Nm5mKW5/sterling-Silver-Pen.webp",
-        "name": "Sterling Silver Pen",
-        "price": "520",
+        "category_name": "tablets",
+        "img": "https://i.ibb.co/3sYjcbx/i-Pad-Pro2021.png",
+        "name": "iPad Pro 2021",
+        "price": 85900,
+        "detail": "Apple iPad Pro 11-inch (2021) Wi-Fi + Cellular tablet was launched on 20th April 2021. The tablet comes with a 11.00-inch touchscreen display offering a resolution of 2388x1668 pixels at a pixel density of 264 pixels per inch (ppi). Apple iPad Pro 11-inch (2021) Wi-Fi + Cellular is powered by an octa-core Apple M1 processor. It comes with 16GB of RAM."
+    },
+    {
+        "category_name": "tablets",
+        "img": "https://i.ibb.co/Mh2r4n1/Samsung-Galaxy-S7.jpg",
+        "name": "Samsung Galaxy S7",
+        "price": 49999,
+        "detail": "Meet the most advanced Samsung Galaxy Tab S7/S7+/S7 FE. The Galaxy tab will change the way you work and play with its ultra-smooth 120Hz display. The intelligent display adjusts the refresh rate, according to the content and helps you save the battery. Experience the cinematic view with Quad Speaker sound by AKG and Dolby Atoms. It cares for your eyes so that you can binge-watch all your favorite shows with its lowest blue light display."
+    },
+    {
+        "category_name": "tablets",
+        "img": "https://i.ibb.co/hBr2H97/Mic-Sur-Pro7.png",
+        "name": "Microsoft Surface Pro 7",
+        "price": 79490,
+        "detail": "The Microsoft Surface Pro 7 is the latest in a long line of 2-in-1 tablets, and not much has changed in terms of design since the original. You get a large 12.3-inch 3:2 screen that works well in landscape or portrait and supports stylus as well as multi-touch input. The trademark kickstand allows for a wide range of positions. The Surface Pro 7 is expensive and you'll most probably need to spend more for a Type Cover keyboard attachment. "
+    },
+    {
+        "category_name": "tablets",
+        "img": "https://i.ibb.co/0BTTkXL/Xiaomi-Pad5.png",
+        "name": "Xiaomi Mi Pad 5",
+        "price": 27999,
+        "detail": "The Xiaomi Mi Pad 5 is a quality mid-range tablet with a focus on performance. It is powered by the Qualcomm Snapdragon 860 SoC which offers good gaming performance and comes with a 120Hz display which makes the software experience feel quite fluid. The large display also supports Dolby Vision for a better viewing experience, while the quad-speaker system offers loud and clear audio which comes in use when consuming content and gaming."
+    },
+    {
+        "category_name": "watches",
+        "img": "https://i.ibb.co/0D0D5BV/Apple-Watch7.png",
+        "name": "Apple Watch 7",
+        "price": 50990,
+        "detail": "Always-on Retina display has nearly 20% more screen area than Series 6, making everything easier to see and use;The most crack-resistant front crystal yet on an Apple Watch, IP6X dust resistance and swimproof design"
+    },
+    {
+        "category_name": "watches",
+        "img": "https://i.ibb.co/GVDd1jr/Xiaomi-Band7.png",
+        "name": "Xiaomi Mi Band 7",
+        "price": 2799,
         "badge": "new",
-        "detail": "You can get all kind of Pens at a cheap price. And we provide students friendly Services."
+        "detail": "This is an Upcoming Fitness Band. Xiaomi Mi Band 7 is expected to launch soon."
     },
     {
-        "category_name": "pens",
-        "img": "https://i.ibb.co/9G7wL3P/cross-Classic.jpg",
-        "name": "Cross Classic Pen",
-        "price": "220",
-        "detail": "You can get all kind of Pens at a cheap price. And we provide students friendly Services."
+        "category_name": "watches",
+        "img": "https://i.ibb.co/rFKZkCG/One-Plus-Watch-Midnight-Black.jpg",
+        "name": "OnePlus Watch Midnight Black",
+        "price": 19990,
+        "detail": "3D model based on the original dimensions of a real OnePlus smartwatch.All main parts of the model are separated objects. Therefore, you can easily change all materials. We provide several formats for each model, most of them are available by default.All colors can be easily modified."
     },
     {
-        "category_name": "pens",
-        "img": "https://i.ibb.co/M7640sy/classic-Fountain.jpg",
-        "name": "Classic Fountain Pen",
-        "price": "350",
-        "badge": "new",
-        "detail": "You can get all kind of Pens at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pens",
-        "img": "https://i.ibb.co/kqcWc7n/perker.jpg",
-        "name": "Parker Pen",
-        "price": "250",
-        "detail": "You can get all kind of Pens at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pens",
-        "img": "https://i.ibb.co/YQ9rfdS/wooden.jpg",
-        "name": "Wooden Pen",
-        "price": "100",
-        "detail": "You can get all kind of Pens at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pencils",
-        "img": "https://i.ibb.co/HrgVr4M/Magnum-Ferfect-Pencil.png",
-        "name": "The Magnum Perfect Pencil",
-        "price": "160",
-        "detail": "You can get all kind of Pencils at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pencils",
-        "img": "https://i.ibb.co/7pvW28R/5-Aurora-Ottantotto-Demonstrator-Sketch-Pencil.png",
-        "name": "Aurora Demonstrator Sketch Pencil",
-        "price": "190",
-        "detail": "You can get all kind of Pencils at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pencils",
-        "img": "https://i.ibb.co/yXFjScV/Mechanical.png",
-        "name": "Mechanical Pencil",
-        "price": "120",
-        "badge": "new",
-        "detail": "You can get all kind of Pencils at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pencils",
-        "img": "https://i.ibb.co/rQ11nBg/hbPencil.webp",
-        "name": "HB Pencil",
-        "price": "48",
-        "detail": "You can get all kind of Pencils at a cheap price. And we provide students friendly Services."
-    },
-    {
-        "category_name": "pencils",
-        "img": "https://i.ibb.co/rc7YQND/2B.jpg",
-        "name": "2B Pencil",
-        "price": "60",
-        "detail": "You can get all kind of Pencils at a cheap price. And we provide students friendly Services."
+        "category_name": "watches",
+        "img": "https://i.ibb.co/3TWnsKV/Realme2-Pro.png",
+        "name": "realme Smart Watch 2 Pro",
+        "price": 2990,
+        "detail": "HD Super Bright Touchscreen Display for fine picture quality and vivid colors Heart Rate & Blood Oxygen Saturation (SpO2) Monitors Dual Satellite Low Power GPS supporting GLONASS and GPS provides accurate & independent path tracking for running, jogging, cycling, walking. Up to 14 Days Battery Life 90 Sport Modes - Outdoor Run, Indoor Run, Outdoor Walk, Indoor Walk, Outdoor Cycling, Spinning, Hiking, Basketball, Yoga, Rowing, Elliptical, Cricket etc."
     }
 ]

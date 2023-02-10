@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const ProductsMenu = () => {
     const products = useLoaderData();
@@ -9,8 +9,9 @@ const ProductsMenu = () => {
             <div className='grid grid-cols-4 gap-6 pb-4 drop-shadow-lg'>
                 {
                     products.map(product =>
-                        <div
-                            key={product.id}
+                        <Link
+                            key={product._id}
+                            to={`allProducts/${product.category_name}`}
                             className='lg:flex shadow-lg hover:scale-110 bg-gradient-to-r from-info to-secondary justify-center md:justify-between items-center w-full px-6 rounded-md lg:h-24'
                         >
                             <div>
@@ -19,7 +20,7 @@ const ProductsMenu = () => {
                             <div>
                                 <h2 className='text-xl text-center hidden md:block font-semibold'>{product.category_name}</h2>
                             </div>
-                        </div>
+                        </Link>
                     )
                 }
             </div >
