@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { HiMenu, HiOutlineHome, HiOutlineUserCircle } from 'react-icons/hi';
+import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
 
 const Navbar = () => {
+    const { user } = useContext(AuthContext);
+    console.log(user);
+
     const menuItems = <>
         <li><NavLink to='/' className='flex items-center text-xl m-2 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink></li>
         <li><NavLink to='*' className='flex items-center text-xl m-2 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Dashboard</span></NavLink></li>
@@ -35,6 +39,7 @@ const Navbar = () => {
                         :
                     } */}
                 <HiOutlineUserCircle className='text-2xl' />
+                {/* <h2 className='text-xl text-black'>{user}</h2> */}
             </div>
         </div>
     );
