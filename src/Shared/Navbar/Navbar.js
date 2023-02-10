@@ -19,7 +19,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-info to-secondary ml-5">T-Task</Link>
+                <Link className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-info to-secondary lg:ml-5">T-Task</Link>
             </div>
             <div className="hidden lg:flex items-center">
                 <ul className="menu text-base-content menu-horizontal">
