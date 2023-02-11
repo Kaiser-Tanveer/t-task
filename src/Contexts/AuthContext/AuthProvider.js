@@ -30,6 +30,7 @@ const AuthProvider = ({ children }) => {
     }, []);
 
     const authValue = {
+        loading,
         user,
         createUser,
         signIn,
