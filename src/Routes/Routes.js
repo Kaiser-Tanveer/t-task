@@ -5,6 +5,9 @@ import Products from "../Pages/Products/Products";
 import ProductDetails from "../Pages/Products/ProductDetails";
 import Register from "../Login/Register";
 import Login from "../Login/Login";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import Cart from "../Pages/Cart/Cart";
+import Shop from "../Shop/Shop";
 
 const router = createBrowserRouter([
     {
@@ -17,13 +20,22 @@ const router = createBrowserRouter([
                 loader: () => fetch('http://localhost:5000/categories')
             },
             {
+                path: '/products',
+                element: <Shop />,
+                loader: () => fetch('http://localhost:5000/products')
+            },
+            {
+                path: '/cart',
+                element: <Cart />,
+            },
+            {
                 path: '/allProducts/:name',
                 element: <Products />,
                 loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.name}`)
             },
             {
                 path: '/product/:id',
-                element: <ProductDetails />,
+                element: <PrivateRoute><ProductDetails /></PrivateRoute>,
                 loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
             },
             {

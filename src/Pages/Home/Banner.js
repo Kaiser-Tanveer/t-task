@@ -13,7 +13,7 @@ const Banner = () => {
                 </Zoom>
             </div>
             <div className='absolute left-1/4 md:left-1/2 top-2/3 z-30'>
-                <Link className='btn btn-secondary font-semibold border md:border-none border-white hover:scale-110 shadow-lg' to='/products'>VISIT SHOP <FaShopify className='ml-2' /> </Link>
+                <Link to="/products" className='btn btn-secondary font-semibold border md:border-none border-white hover:scale-110 shadow-lg'>VISIT SHOP <FaShopify className='ml-2' /> </Link>
             </div>
             <div className='rounded-lg bg-secondary grid grid-cols-1 md:grid-cols-2 h-80 md:h-full' style={{
                 clipPath: 'polygon(0 0, 100% calc(100% - 100vw), calc(100% - 50vw) 100%, 0 100%)'

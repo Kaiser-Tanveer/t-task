@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
+import { toast } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 const BookingModal = ({ goods, setModalCondition }) => {
-    const { _id, img, name, price, detail } = goods;
+    const navigate = useNavigate();
+    const { user } = useContext(AuthContext);
+    const { img, name, price } = goods;
     const handleSubmit = e => {
         e.preventDefault();
         const form = e.target;
@@ -10,12 +15,29 @@ const BookingModal = ({ goods, setModalCondition }) => {
 
         const bookingData = {
             img,
+            email: user.email,
             productName: name,
             price,
             phone,
             msg
         }
-        console.log(bookingData);
+
+        fetch('http://localhost:5000/bookings', {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(bookingData)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (data.acknowledged) {
+                    toast.success('Booked Successfully!');
+                    navigate('/cart');
+                }
+            })
+
         setModalCondition(0);
     }
     return (

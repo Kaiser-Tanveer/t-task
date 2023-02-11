@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link, useLoaderData, useNavigation } from 'react-router-dom';
+import Spinner from '../Pages/Spinner/Spinner';
 import { FaInfo } from 'react-icons/fa';
-import Spinner from '../Spinner/Spinner';
 
-const Products = () => {
-    const navigation = useNavigation();
+const Shop = () => {
+    const navigation = useNavigation()
     const products = useLoaderData();
 
     if (navigation.state === "loading") {
@@ -34,4 +34,4 @@ const Products = () => {
     );
 };
 
-export default Products;
+export default Shop;

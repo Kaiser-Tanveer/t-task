@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigation } from 'react-router-dom';
 import { Zoom } from 'react-reveal';
 import BookingModal from '../BookingModal/BookingModal';
+import Spinner from '../Spinner/Spinner';
 
 const ProductDetails = () => {
+    const navigation = useNavigation();
     const details = useLoaderData();
     const [goods, setGoods] = useState(details)
     const [modalCondition, setModalCondition] = useState(1);
     const { _id, img, name, price, detail } = details;
+
+    if (navigation.state === "loading") {
+        return <Spinner />
+    }
     return (
         <section className="bg-gray-100 text-gray-800">
             <div className="container flex flex-col justify-center items-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">

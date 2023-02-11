@@ -11,8 +11,8 @@ const Register = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
     const { createUser } = useContext(AuthContext);
     const [disable, setDisable] = useState(false);
-    // useTitle('Sign Up');
 
+    // Registration Handler 
     const submitHandler = data => {
         createUser(data.email, data.password)
             .then(result => {
