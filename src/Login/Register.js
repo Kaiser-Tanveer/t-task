@@ -5,8 +5,11 @@ import { AuthContext } from '../Contexts/AuthContext/AuthProvider';
 import { toast } from 'react-hot-toast';
 import { Zoom } from 'react-reveal';
 import { FaUserCircle } from 'react-icons/fa';
+import { setAuthToken } from '../Components/setAuthToken';
+import useTitle from '../Components/myHook/useTitle';
 
 const Register = () => {
+    useTitle('Register');
     const navigate = useNavigate();
     const { register, formState: { errors }, handleSubmit } = useForm();
     const { createUser } = useContext(AuthContext);
@@ -18,6 +21,7 @@ const Register = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                setAuthToken(user);
                 if (result) {
                     toast.success('Registration Successfully!');
                     navigate('/');

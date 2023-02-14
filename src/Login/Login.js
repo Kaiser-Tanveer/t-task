@@ -5,8 +5,11 @@ import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
 import { Zoom } from 'react-reveal';
 import { FaUserAlt } from 'react-icons/fa';
+import { setAuthToken } from '../Components/setAuthToken';
+import useTitle from '../Components/myHook/useTitle';
 
 const Login = () => {
+    useTitle('Login');
     const { signIn } = useContext(AuthContext);
     const location = useLocation();
     const from = location?.state?.form?.pathname || '/';
@@ -19,6 +22,7 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                setAuthToken(user);
                 if (result) {
                     toast.success('Logged in Successfully!');
                     navigate(from, { replace: true });

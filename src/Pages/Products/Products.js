@@ -2,8 +2,10 @@ import React from 'react';
 import { Link, useLoaderData, useNavigation } from 'react-router-dom';
 import { FaInfo } from 'react-icons/fa';
 import Spinner from '../Spinner/Spinner';
+import useTitle from '../../Components/myHook/useTitle';
 
 const Products = () => {
+    useTitle('Products');
     const navigation = useNavigation();
     const products = useLoaderData();
 
@@ -24,7 +26,7 @@ const Products = () => {
                             <div className="card-actions justify-center">
                                 <Link
                                     to={`/product/${product._id}`}
-                                    className="flex items-center bg-gradient-to-r from-secondary to-info shadow-lg border border-gray-600 hover:border-gray-500 p-2 rounded-md font-semibold hover:scale-110 hover:text-gray-100"><FaInfo /> DETAILS</Link>
+                                    className="flex items-center bg-gradient-to-r from-secondary to-info shadow-lg border border-gray-600 hover:border-gray-500 p-2 rounded-md font-semibold hover:scale-110 hover:text-gray-100 duration-500"><FaInfo /> DETAILS</Link>
                             </div>
                         </div>
                     </div>

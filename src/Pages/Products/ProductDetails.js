@@ -3,8 +3,10 @@ import { useLoaderData, useNavigation } from 'react-router-dom';
 import { Zoom } from 'react-reveal';
 import BookingModal from '../BookingModal/BookingModal';
 import Spinner from '../Spinner/Spinner';
+import useTitle from '../../Components/myHook/useTitle';
 
 const ProductDetails = () => {
+    useTitle('Details');
     const navigation = useNavigation();
     const details = useLoaderData();
     const [goods, setGoods] = useState(details)

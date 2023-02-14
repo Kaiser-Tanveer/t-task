@@ -21,7 +21,7 @@ const ProductsMenu = () => {
                             className='lg:flex shadow-lg hover:scale-110 bg-gradient-to-r from-info to-secondary justify-center md:justify-between items-center w-full px-6 rounded-md lg:h-24'
                         >
                             <div>
-                                <img src={product.img} alt="" className='h-24' />
+                                <img src={product.img} alt="" className='w-full h-14 md:p-0 md:h-24' />
                             </div>
                             <div>
                                 <h2 className='text-xl text-center hidden md:block font-semibold'>{product.category_name}</h2>

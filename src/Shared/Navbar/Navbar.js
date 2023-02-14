@@ -15,10 +15,15 @@ const Navbar = () => {
 
     // Creaing variable for the menu 
     const menuItems = <>
-        <li><NavLink to='/' className='flex rounded-md items-center text-xl m-2 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink></li>
-        <li><NavLink to='/products' className='flex rounded-md items-center text-xl m-2 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Shop</span></NavLink></li>
-        <li><NavLink to='/cart' className='flex rounded-md items-center text-xl m-2 lg:text-base'><HiOutlineShoppingCart className='lg:hidden' /><span className='ml-2'>Cart</span></NavLink></li>
-        <li><NavLink to='' className='flex rounded-md items-center text-xl m-2 lg:text-base'><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Blog</span></NavLink></li>
+        <li><NavLink to='/' className={({ isActive }) =>
+            isActive ? 'flex rounded-md bg-info items-center text-xl m-2 lg:text-base' : undefined
+        }><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Home</span></NavLink></li>
+        <li><NavLink to='/products' className={({ isActive }) =>
+            isActive ? 'flex rounded-md bg-info items-center text-xl m-2 lg:text-base' : undefined
+        }><HiOutlineHome className='lg:hidden' /><span className='ml-2'>Shop</span></NavLink></li>
+        <li><NavLink to='/cart' className={({ isActive }) =>
+            isActive ? 'flex rounded-md bg-info items-center text-xl m-2 lg:text-base' : undefined
+        }><HiOutlineShoppingCart className='lg:hidden' /><span className='ml-2'>Cart</span></NavLink></li>
     </>
     return (
         <div className="navbar fixed top-0 glass p-0 pr-5 mx-auto shadow-lg z-50">

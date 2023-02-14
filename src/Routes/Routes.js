@@ -17,26 +17,26 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />,
-                loader: () => fetch('http://localhost:5000/categories')
+                loader: () => fetch('https://t-task-server.vercel.app/categories')
             },
             {
                 path: '/products',
                 element: <Shop />,
-                loader: () => fetch('http://localhost:5000/products')
+                loader: () => fetch('https://t-task-server.vercel.app/products')
             },
             {
                 path: '/cart',
-                element: <Cart />,
+                element: <PrivateRoute><Cart /></PrivateRoute>,
             },
             {
                 path: '/allProducts/:name',
                 element: <Products />,
-                loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.name}`)
+                loader: ({ params }) => fetch(`https://t-task-server.vercel.app/allProducts/${params.name}`)
             },
             {
                 path: '/product/:id',
                 element: <PrivateRoute><ProductDetails /></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://t-task-server.vercel.app/product/${params.id}`)
             },
             {
                 path: '/register',
